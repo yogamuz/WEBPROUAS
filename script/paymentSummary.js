@@ -84,7 +84,7 @@ export function renderPaymentSummary() {
         window.open(`https://wa.me/${nomorWhatsApp}?text=${encodedPesan}`, "_blank");
     }
     function generateWhatsAppMessage(cart) {
-        let message = "Halo Flower Harmony, saya ingin memesan produk berikut:\n\n";
+        let message = "Halo Elecstore, saya ingin memesan produk berikut:\n\n";
     
         cart.forEach((cartItem, index) => {
             const productId = cartItem.productId;
