@@ -1,0 +1,250 @@
+.logo-modify {
+  color: black;
+    
+}
+
+
+.text-color {
+    color:#98FF98;
+}
+.bg-color {
+    background-color: orange;
+}
+
+.d-flex .btn {
+  padding: 0.3rem 0.5rem; /* Mengurangi padding */
+  font-size: 0.875rem; /* Menyesuaikan ukuran font */
+  height: 36px; /* Menyesuaikan tinggi tombol */
+}
+
+.d-flex .btn i {
+  font-size: 1rem; /* Menyesuaikan ukuran ikon */
+}
+
+.d-flex .btn-outline-primary {
+  border-width: 1px; /* Menyesuaikan ketebalan border */
+}
+
+.d-flex .btn-primary {
+  font-weight: 400; /* Mengurangi ketebalan font */
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Agar nama produk kesamping */
+.table td p.mb-0 {
+  white-space: nowrap; /* Mencegah nama produk terpotong ke bawah */
+  overflow: hidden; /* Menyembunyikan teks yang terlalu panjang */
+  text-overflow: ellipsis; /* Menambahkan elipsis (...) jika teks terlalu panjang */
+}
+
+/* Memastikan tabel bisa di-scroll secara horizontal */
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Pastikan kolom lebar tetap proporsional pada tabel */
+.table td,
+.table th {
+  max-width: 150px; /* Sesuaikan lebar kolom produk */
+  text-overflow: ellipsis; /* Menghindari teks terpotong terlalu panjang */
+}
+
+
+.img-center {
+    height: 60%;
+    width: 60%;
+    display: block;
+    margin-left: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-footer {
+    width: 100%; /* Atur lebar penuh sesuai kontainer */
+    max-width: 800px; /* Opsional: Batasi agar tidak terlalu panjang */
+    text-align: justify; 
+}
+.quantity-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .quantity-btn {
+    background-color: #f8b4d9;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+  }
+
+  .quantity-btn:active {
+    transform: scale(0.95);
+  }
+
+  .quantity-input {
+    width: 50px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+  }
+
+  .dark-select {
+    background-color:#F8BBD0; /* Warna abu gelap */
+    color: #fff; /* Warna teks putih */
+    border: 1px solid #F8BBD0; /* Warna border */
+    padding: 0.5rem;
+    border-radius: 4px;
+  }
+
+  .dark-select option {
+    background-color: #444; /* Warna abu gelap */
+    color: #fff; /* Warna teks putih */
+  }
+
+  .dark-select:focus {
+    outline: none;
+    border-color: #F8BBD0; /* Warna border saat fokus */
+  }
+  .add-to-cart-button {
+    position: relative;
+    left: 4rem;
+    color: #333; /* Warna teks gelap agar kontras */
+    background-color: transparent;
+    border: none; /* Menghilangkan border default */
+    font-size: 1rem; /* Ukuran teks */
+    font-weight: bold; /* Teks lebih tebal */
+    cursor: pointer; /* Pointer saat dihover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Animasi */
+  }
+  
+  .add-to-cart-button:hover {
+    transform: scale(1.05); /* Efek zoom saat hover */
+  }
+  
+  .add-to-cart-button:active {
+    transform: scale(0.95); /* Sedikit mengecil saat diklik */
+  }
+
+.title-desk {
+  display: -webkit-box;          /* Menggunakan box model fleksibel */
+  -webkit-box-orient: vertical;  /* Atur orientasi menjadi vertikal */
+  overflow: hidden;              /* Sembunyikan teks yang berlebih */
+  text-overflow: ellipsis;       /* Tambahkan "..." */
+  -webkit-line-clamp: 3;  
+}
+
+
+  .menu-container {
+    display: flex; /* Bisa juga menggunakan grid */
+    flex-wrap: wrap; /* Agar item yang melebihi lebar pindah ke baris berikutnya */
+    flex-direction: column;
+    justify-content: space-between; /* Jarak antar elemen */
+    height: 100%; 
+    gap: 1rem; /* Spasi antar kotak */
+    position: relative;
+}
+
+
+
+
+.menu-container .fs-5 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px; /* Spasi bawah */
+}
+
+/* Rating (bintang) */
+.menu-container .my-3 img {
+    height: 20px; /* Tinggi gambar bintang */
+    width: auto;
+    object-fit: contain; /* Jaga proporsi bintang */
+}
+
+/* Tombol Add to Cart */
+.add-to-cart-button {
+    margin-top: auto; /* Dorong tombol ke bawah */
+    text-align: center;
+}
+
+
+
+.menu-flower {
+    flex: 1 1 calc(25% - 1rem); /* 4 kotak per baris, sesuaikan nilai jika ingin lebih sedikit */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Jaga elemen tetap proporsional */
+    min-height: 300px; /* Atur tinggi minimum */
+    background-color: #fff; /* Warna background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan jika diperlukan */
+    border-radius: 10px; /* Sudut melengkung */
+}
+
+.js-delivery-total {
+  position: relative;
+  right: 1rem;
+  bottom: 5rem;
+}
+.shipping-date{
+  position: relative;
+  bottom: 1.5rem;
+}
+  
+.vesitable {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.seller-content {
+  width: 100%; /* Pastikan lebar 100% dari kontainer */
+  max-width: 300px; /* Tentukan lebar maksimum agar tidak terlalu besar */
+  margin: 10px; /* Beri margin antar item */
+  padding: 10px; /* Beri padding untuk isi item */
+  border: 1px solid #ddd; /* Beri border agar terlihat jelas */
+  border-radius: 8px; /* Menambahkan rounded border */
+  background-color: #fff; /* Pastikan background terlihat */
+}
+
+.best-stars{
+width: 50%;
+height: 50%;
+position: relative;
+left: 4rem;
+}
+.best-seller-container {
+  width: 100%;
+  height: auto;
+  display: flex; /* Flexbox agar responsif */
+  flex-direction: column; /* Elemen diatur secara vertikal */
+  justify-content: space-between; /* Jarak antar elemen */
+  box-sizing: border-box; /* Termasuk padding di ukuran total */
+  padding: 10px; /* Spasi dalam elemen */
+}
+
+.best-seller-title {
+  height: 60px; /* Tinggi tetap untuk semua judul */
+  line-height: 1.2; /* Jarak antar baris */
+  font-size: 1rem; /* Ukuran font */
+  overflow: hidden; /* Potong teks yang berlebih */
+  text-overflow: ellipsis; /* Tambahkan ... untuk teks panjang */
+  display: -webkit-box; /* Untuk multiline ellipsis */
+  -webkit-line-clamp: 2; /* Batasi ke 2 baris */
+  -webkit-box-orient: vertical; /* Orientasi vertikal */
+  white-space: normal; /* Teks tetap dalam baris */
+  padding: 5px; /* Tambahkan spasi dalam judul */
+  border-radius: 5px; /* Sudut melengkung */
+}
+
+.input-value {
+  pointer-events: none;
+  background-color: #f0f0f0; /* Opsional: ubah warna latar belakang */
+}

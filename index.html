@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Elecstore</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@600;800&display=swap" rel="stylesheet">
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+        <!-- Libraries Stylesheet -->
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/modify.css">
+    </head>
+    <body>
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+        <span class="js-cart-quantity">0</span>
+        <!-- Navbar start -->
+        <div class="container-fluid fixed-top ">
+            <div class="container topbar bg-color d-none d-lg-block ">
+                <div class="d-flex justify-content-between">
+                    <div class="top-info ps-2">
+                        <small class="me-3">
+                            <i class="fas fa-map-marker-alt me-2 text-secondary"></i>
+                            <a href="#" class="text-white">Menteng, Central Jakarta</a>
+                        </small>
+                        <small class="me-3">
+                            <i class="fas fa-envelope me-2 text-secondary"></i>
+                            <a href="#" class="text-white">Elecstorejkt@gmail.com</a>
+                        </small>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container px-0">
+                <nav class="navbar navbar-light bg-white navbar-expand-xl">
+                    <a href="index.html" class="navbar-brand ">
+                        <h1 class="display-6 logo-modify text-secondary">Elecstore
+                        </h1>
+
+                    </a>
+                    <button
+                        class="navbar-toggler py-2 px-3"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                    >
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto">
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
+                            <a href="#shop" class="nav-item nav-link">Shop</a>
+                            <a href="#best" class="nav-item nav-link">Best Seller</a>
+                            <a href="#review" class="nav-item nav-link">Review</a>
+
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                        <div class="d-flex m-3 me-0">
+                            <a href="checkout.html" class="position-relative me-4 my-auto">
+                                <i class="fa fa-shopping-bag fa-2x"></i>
+                                <span class="position-absolute bg-secondary rounded-circle d-flex align-items-center justify-content-center text-dark px-1" id="cart-badge" style="top: -5px; left: 15px; height: 20px; min-width: 20px;">0</span>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+        <!-- Modal Search Start -->
+
+        <!-- Modal Search End -->
+        <!-- Hero Start -->
+        <div class="container-fluid py-5 mb-5 hero-header">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-md-12 col-lg-7">
+                        <h4 class="mb-3 text-secondary"></h4>
+                        <h3 class="mb-5 display-10 text-color">
+                        </h3>
+                    </div>
+                    <div class="col-md-12 col-lg-5">
+                        <div
+                            id="carouselId"
+                            class="carousel slide position-relative img-center"
+                            data-bs-ride="carousel"
+                            data-bs-interval="2000"
+                        >
+                            <div class="carousel-inner container-img" role="listbox">
+                                <div class="carousel-item active rounded ">
+                                    <img src="imgproduct/lamp.webp" class="img-fluid w-100 h-100 bg-secondary rounded ">
+                                </div>
+                                <div class="carousel-item rounded ">
+                                    <img src="imgproduct/lamp2.webp" class="img-fluid w-100 h-100 rounded ">
+                                </div>
+                                <div class="carousel-item rounded ">
+                                    <img src="imgproduct/lamp3.webp" class="img-fluid w-100 h-100 rounded ">
+                                </div>
+                                <div class="carousel-item rounded ">
+                                    <img src="imgproduct/lamp4.webp" class="img-fluid w-100 h-100 rounded ">
+                                </div>
+                                <div class="carousel-item rounded ">
+                                    <img src="imgproduct/ps3.webp" class="img-fluid w-100 h-100 rounded ">
+                                </div>
+                                <div class="carousel-item rounded ">
+                                    <img src="imgproduct/setrika.webp" class="img-fluid w-100 h-100 rounded ">
+                                </div>
+                                <div class="carousel-item rounded ">
+                                    <img src="imgproduct/vacuum.webp" class="img-fluid w-100 h-100 rounded ">
+                                </div>
+                                <div class="carousel-item rounded ">
+                                    <img src="imgproduct/cctv.webp" class="img-fluid w-100 h-100 rounded ">
+                                </div>
+                                <div class="carousel-item rounded ">
+                                    <img src="imgproduct/kipas.webp" class="img-fluid w-100 h-100 rounded ">
+                                </div>
+                                <div class="carousel-item rounded ">
+                                    <img src="imgproduct/keyboard.webp" class="img-fluid w-100 h-100 rounded ">
+                                </div>
+                                <div class="carousel-item rounded ">
+                                    <img src="imgproduct/headphone.webp" class="img-fluid w-100 h-100 rounded ">
+                                </div>
+                                <div class="carousel-item rounded ">
+                                    <img src="imgproduct/airpods.webp" class="img-fluid w-100 h-100 rounded ">
+                                </div>
+                                <div class="carousel-item rounded ">
+                                    <img src="imgproduct/mic.webp" class="img-fluid w-100 h-100 rounded ">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+        <!-- Featurs Section Start -->
+        <div class="container-fluid featurs py-5">
+            <div class="container py-5">
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="featurs-item text-center rounded bg-light p-4">
+                            <div class="featurs-icon btn-square rounded-circle bg-secondary mb-5 mx-auto">
+                                <i class="fas fa-car-side fa-3x text-white"></i>
+                            </div>
+                            <div class="featurs-content text-center">
+                                <h5>Gratis Pengiriman</h5>
+                                <p class="mb-0">Gratis Pengiriman untuk pesanan diatas Rp250.000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="featurs-item text-center rounded bg-light p-4">
+                            <div class="featurs-icon btn-square rounded-circle bg-secondary mb-5 mx-auto">
+                                <i class="fas fa-user-shield fa-3x text-white"></i>
+                            </div>
+                            <div class="featurs-content text-center">
+                                <h5>Klien</h5>
+                                <p class="mb-0">Lebih dari 1000+ klien telah kami layani</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="featurs-item text-center rounded bg-light p-4">
+                            <div class="featurs-icon btn-square rounded-circle bg-secondary mb-5 mx-auto">
+                                <i class="fas fa-exchange-alt fa-3x text-white"></i>
+                            </div>
+                            <div class="featurs-content text-center">
+                                <h5>Free Return</h5>
+                                <p class="mb-0">Maksimal return 3 hari setelah penerimaan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="featurs-item text-center rounded bg-light p-4">
+                            <div class="featurs-icon btn-square rounded-circle bg-secondary mb-5 mx-auto">
+                                <i class="fa fa-phone-alt fa-3x text-white"></i>
+                            </div>
+                            <div class="featurs-content text-center">
+                                <h5>Customer Service</h5>
+                                <p class="mb-0">Pelayanan terkait produk 08.00 - 22.00 WIB</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Featurs Section End -->
+        <!-- Fruits Shop Start-->
+        <section id="shop">
+            <div class="container-fluid fruite py-5">
+                <div class="container py-5">
+                    <div class="tab-class text-center">
+                        <div class="row g-4">
+                            <div class="col-lg-4 text-start">
+                                <h1>Our Flower Products</h1>
+                            </div>
+                            <div class="col-lg-8 text-end">
+                                <ul class="nav nav-pills d-inline-flex text-center mb-5">
+                                    <li class="nav-item">
+                                        <a class="d-flex m-2 py-2 bg-light rounded-pill active" data-bs-toggle="pill" href="#tab-1">
+                                            <span class="text-dark" style="width: 130px;">All Products</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row g-4 js-grid"></div>
+                        <!-- product bunga -->
+                        <div id="tab-2" class="tab-pane fade show p-0"></div>
+                        <!-- <div id="tab-3" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div class="row g-4">
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="img/fruite-item-1.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                    <h4>Orangess</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Buy</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="img/fruite-item-6.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                    <h4>Apple</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Buy</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-4" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div class="row g-4">
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="img/fruite-item-5.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                    <h4>Grapes</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Buy</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="img/fruite-item-4.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                    <h4>Apricots</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Buy</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-5" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div class="row g-4">
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="img/fruite-item-3.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                    <h4>Banana</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Buy</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="img/fruite-item-2.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                    <h4>Raspberries</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Buy</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="img/fruite-item-1.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                    <h4>Oranges</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Buy</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Fruits Shop End-->
+    <!-- Featurs Start -->
+    <!-- Featurs End -->
+    <!-- Vesitable Shop Start-->
+    <!-- Vesitable Shop End -->
+    <!-- Banner Section Start-->
+    <!-- Banner Section End -->
+    <!-- Bestsaler Product Start -->
+    <section id="best">
+        <div class="container-fluid py-5 ">
+            <div class="container py-5 ">
+                <div class="text-center mx-auto mb-5" style="max-width: 700px; ">
+                    <h1 class="display-4">Bestseller Products</h1>
+                </div>
+                <div class="vesitable">
+                    <div class="owl-carousel vegetable-carousel justify-content-center ">
+                        <div class="border border-primary rounded position-relative vesitable-item best-seller-container">
+                            <div class="vesitable-img">
+                                <img src="imgproduct/cctv.webp" class="img-fluid w-100 rounded-top" alt="">
+                            </div>
+                            <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Electronic</div>
+                            <div class="p-4 pb-0 rounded-bottom">
+                                <h4 class="best-seller-title">BARDI Smart Indoor PTZ IP Camera CCTV Wifi IoT Home Automation + Micro SD</h4>
+                                <div class="d-flex justify-content-between flex-lg-wrap best-stars">
+                                    <img src="img/green-stars.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border border-primary rounded position-relative vesitable-item best-seller-container">
+                            <div class="vesitable-img">
+                                <img src="imgproduct/setrika.webp" class="img-fluid w-100 rounded-top" alt="">
+                            </div>
+                            <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Electronic</div>
+                            <div class="p-4 pb-0 rounded-bottom">
+                                <h4 class="best-seller-title">MASPION Setrika Listrik EX-1010 BB - Elektronik Rumah Tangga</h4>
+                                <div class="d-flex justify-content-between flex-lg-wrap best-stars">
+                                    <img src="img/green-stars.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border border-primary rounded position-relative vesitable-item best-seller-container">
+                            <div class="vesitable-img">
+                                <img src="imgproduct/kipasac.webp" class="img-fluid w-100 rounded-top" alt="">
+                            </div>
+                            <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Electronic</div>
+                            <div class="p-4 pb-0 rounded-bottom">
+                                <h4 class="best-seller-title">Kipas AC Portable Air Cooler / AC Mini / Mini AC Cooler Portable / Kipas Angin Portable Dingin⭐Mrlion⭐</h4>
+                                <div class="d-flex justify-content-between flex-lg-wrap best-stars">
+                                    <img src="img/green-stars.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border border-primary rounded position-relative vesitable-item best-seller-container">
+                            <div class="vesitable-img">
+                                <img src="imgproduct/kipasac2.webp" class="img-fluid w-100 rounded-top" alt="">
+                            </div>
+                            <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Electronic</div>
+                            <div class="p-4 pb-0 rounded-bottom">
+                                <h4 class="best-seller-title">Kipas Pendingin Udara Portabel, Mini Ac Kipas kabut Portable / Kipas Angin Ac Mini / Kipas Ac Portable</h4>
+                                <div class="d-flex justify-content-between flex-lg-wrap best-stars">
+                                    <img src="img/green-stars.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border border-primary rounded position-relative vesitable-item best-seller-container">
+                            <div class="vesitable-img">
+                                <img src="imgproduct/airpods.webp" class="img-fluid w-100 rounded-top" alt="">
+                            </div>
+                            <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Electronic</div>
+                            <div class="p-4 pb-0 rounded-bottom">
+                                <h4 class="best-seller-title">MINIBEST M5 Pro 2 TWS Earphone Headset Bluetooth V5.3 Chip H2 Wireless Charging Sound Dolby Quality</h4>
+                                <div class="d-flex justify-content-between flex-lg-wrap best-stars">
+                                    <img src="img/green-stars.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border border-primary rounded position-relative vesitable-item best-seller-container">
+                            <div class="vesitable-img">
+                                <img src="imgproduct/headphone.webp" class="img-fluid w-100 rounded-top" alt="">
+                            </div>
+                            <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Electronic</div>
+                            <div class="p-4 pb-0 rounded-bottom">
+                                <h4 class="best-seller-title">Nakamichi My Music Hue Hear Super Bass Wireless Bluetooth Headphones - Beige</h4>
+                                <div class="d-flex justify-content-between flex-lg-wrap best-stars">
+                                    <img src="img/green-stars.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Bestsaler Product End -->
+    <!-- Fact Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="bg-light p-5 rounded">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="counter bg-white rounded p-5">
+                            <i class="fa fa-users text-secondary"></i>
+                            <h4>Kepuasan Pelanggan</h4>
+                            <div class="stars-img">
+                                <img src="img/4-green-stars.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="counter bg-white rounded p-5">
+                            <i class="fa fa-users text-secondary"></i>
+                            <h4>Kualitas Pelayanan</h4>
+                            <div class="stars-img">
+                                <img src="img/green-stars.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="counter bg-white rounded p-5">
+                            <i class="fa fa-users text-secondary"></i>
+                            <h4>Kualitas Pengiriman</h4>
+                            <div class="stars-img">
+                                <img src="img/green-stars.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="counter bg-white rounded p-5">
+                            <i class="fa fa-users text-secondary"></i>
+                            <h4>Produk Tersedia</h4>
+                            <h1>938</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fact Start -->
+    <!-- Tastimonial Start -->
+    <section id="review">
+        <div class="container-fluid testimonial py-5">
+            <div class="container py-5">
+                <div class="testimonial-header text-center">
+                    <h4 class="text-primary">Testimoni Kami</h4>
+                    <h1 class="display-5 mb-5 text-dark">Review Klien Kami!</h1>
+                </div>
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="testimonial-item img-border-radius bg-light rounded p-4">
+                        <div class="position-relative">
+                            <i class="fa fa-quote-right fa-2x text-secondary position-absolute" style="bottom: 30px; right: 0;"></i>
+                            <div class="mb-4 pb-4 border-bottom border-secondary">
+                                <p class="mb-0">
+                                    Airpodsnya jernih banget suaranya buat olahraga mantap!
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center flex-nowrap">
+                                <div class="bg-secondary rounded">
+                                    <img
+                                        src="imgperson/anon-boy.jpeg"
+                                        class="img-fluid rounded"
+                                        style="width: 100px; height: 100px;"
+                                        alt=""
+                                    >
+                                </div>
+                                <div class="ms-4 d-block">
+                                    <h4 class="text-dark">Zafrael</h4>
+                                    <p class="m-0 pb-3">Pelajar</p>
+                                    <div class="d-flex pe-5">
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item img-border-radius bg-light rounded p-4">
+                        <div class="position-relative">
+                            <i class="fa fa-quote-right fa-2x text-secondary position-absolute" style="bottom: 30px; right: 0;"></i>
+                            <div class="mb-4 pb-4 border-bottom border-secondary">
+                                <p class="mb-0">
+                                    Buat setrika harga 100-ribuan worth it sih..
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center flex-nowrap">
+                                <div class="bg-secondary rounded">
+                                    <img
+                                        src="imgperson/anon-boy.jpeg"
+                                        class="img-fluid rounded"
+                                        style="width: 100px; height: 100px;"
+                                        alt=""
+                                    >
+                                </div>
+                                <div class="ms-4 d-block">
+                                    <h4 class="text-dark">Arkaza</h4>
+                                    <p class="m-0 pb-3">Mahasiswa</p>
+                                    <div class="d-flex pe-5">
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item img-border-radius bg-light rounded p-4">
+                        <div class="position-relative">
+                            <i class="fa fa-quote-right fa-2x text-secondary position-absolute" style="bottom: 30px; right: 0;"></i>
+                            <div class="mb-4 pb-4 border-bottom border-secondary">
+                                <p class="mb-0">
+                                    Kipas Acnya enak banget, adem lagi mayan buat aku yang tinggal di kosan.
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center flex-nowrap">
+                                <div class="bg-secondary rounded">
+                                    <img
+                                        src="imgperson/anon-girl.png"
+                                        class="img-fluid rounded"
+                                        style="width: 100px; height: 100px;"
+                                        alt=""
+                                    >
+                                </div>
+                                <div class="ms-4 d-block">
+                                    <h4 class="text-dark">Ravelia</h4>
+                                    <p class="m-0 pb-3">Mahasiswi</p>
+                                    <div class="d-flex pe-5">
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item img-border-radius bg-light rounded p-4">
+                        <div class="position-relative">
+                            <i class="fa fa-quote-right fa-2x text-secondary position-absolute" style="bottom: 30px; right: 0;"></i>
+                            <div class="mb-4 pb-4 border-bottom border-secondary">
+                                <p class="mb-0">
+                                    Ga kecewa beli Kipas Acnya adem ayem maknyuss!
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center flex-nowrap">
+                                <div class="bg-secondary rounded">
+                                    <img
+                                        src="imgperson/anon-boy.jpeg"
+                                        class="img-fluid rounded"
+                                        style="width: 100px; height: 100px;"
+                                        alt=""
+                                    >
+                                </div>
+                                <div class="ms-4 d-block">
+                                    <h4 class="text-dark">Nicholas</h4>
+                                    <p class="m-0 pb-3">Mahasiswa</p>
+                                    <div class="d-flex pe-5">
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item img-border-radius bg-light rounded p-4">
+                        <div class="position-relative">
+                            <i class="fa fa-quote-right fa-2x text-secondary position-absolute" style="bottom: 30px; right: 0;"></i>
+                            <div class="mb-4 pb-4 border-bottom border-secondary">
+                                <p class="mb-0">
+                                    CCTV under 1 juta tapi bagus lumayan.. kirain bakalan burem resolusinya
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center flex-nowrap">
+                                <div class="bg-secondary rounded">
+                                    <img
+                                        src="imgperson/anon-boy.jpeg"
+                                        class="img-fluid rounded"
+                                        style="width: 100px; height: 100px;"
+                                        alt=""
+                                    >
+                                </div>
+                                <div class="ms-4 d-block">
+                                    <h4 class="text-dark">Rayfan</h4>
+                                    <p class="m-0 pb-3">Konsultan</p>
+                                    <div class="d-flex pe-5">
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item img-border-radius bg-light rounded p-4">
+                        <div class="position-relative">
+                            <i class="fa fa-quote-right fa-2x text-secondary position-absolute" style="bottom: 30px; right: 0;"></i>
+                            <div class="mb-4 pb-4 border-bottom border-secondary">
+                                <p class="mb-0">
+                                    Headphone nakamichi suaranya clear banget + bassnya dapet. Keren!
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center flex-nowrap">
+                                <div class="bg-secondary rounded">
+                                    <img
+                                        src="imgperson/anon-boy.jpeg"
+                                        class="img-fluid rounded"
+                                        style="width: 100px; height: 100px;"
+                                        alt=""
+                                    >
+                                </div>
+                                <div class="ms-4 d-block">
+                                    <h4 class="text-dark">Pandji</h4>
+                                    <p class="m-0 pb-3">Budak Korporat</p>
+                                    <div class="d-flex pe-5">
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Tastimonial End -->
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
+        <div class="container py-5">
+            <div class="pb-4 mb-4" style="border-bottom: 1px solid rgba(226, 175, 24, 0.5) ;">
+                <div class="row g-4">
+                    <div class="col-lg-3">
+                        <a href="#">
+                            <h1 class="mb-0 text-color">Electronics</h1>
+                            <p class="text-secondary mb-0"> Store</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-5 footer-header">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-item ">
+                        <h4 class="text-light mb-3">Why People Like us!</h4>
+                        <p class="mb-4 p-footer">Electstore menawarkan berbagai elektronik berkualitas dengan harga terbaik. Pelanggan kami menyukai kami karena produk yang tahan lama, performa unggul, dan layanan pelanggan yang cepat dan ramah. Dengan website yang mudah digunakan dan pengiriman cepat, Electstore menjadi pilihan tepat untuk memenuhi kebutuhan elektronik Anda.</p>
+                        <a href="" class="btn border-secondary py-2 px-4 rounded-pill text-primary">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 shop-info">
+                    <div class="d-flex flex-column text-start footer-item">
+                        <h4 class="text-light mb-3">Store Info</h4>
+                        <a class="btn-link" href="">About Us</a>
+                        <a class="btn-link" href="">Contact Us</a>
+                        <a class="btn-link" href="">Privacy Policy</a>
+                        <a class="btn-link" href="">Terms & Condition</a>
+                        <a class="btn-link" href="">Return Policy</a>
+                        <a class="btn-link" href="">FAQs & Help</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-item">
+                        <h4 class="text-light mb-3">Contact</h4>
+                        <p>Address: Jl. Menteng Pulo, RT.16/RW.5, Menteng Atas, Kecamatan Setiabudi, Jakarta, Daerah Khusus Ibukota Jakarta 12690</p>
+                        <p>Email: Elecstorejkt@gmail.com</p>
+                        <p>Whatsapp: +62-0895-3608-54700</p>
+                        <p>Payment Accepted</p>
+                        <img src="img/payment.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright bg-dark py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <span class="text-light">
+                        <a href="#">
+                            <i class="fas fa-copyright text-light me-2"></i>
+                            Floral Harmony
+                        </a>
+                        , All right reserved.
+                    </span>
+                </div>
+                <div class="col-md-6 my-auto text-center text-md-end text-white">
+                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                    Designed By
+                    <a class="border-bottom" href="https://htmlcodex.com">Yogamuz</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="controller/index.js" type="module"></script>
+    <script src="controller/bestSeller.js" type="module"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+</body>
+</html>
