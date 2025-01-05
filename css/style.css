@@ -179,7 +179,7 @@
 
 /*** Hero Header ***/
 .hero-header {
-    background: linear-gradient(rgba(248, 223, 173, 0), rgba(248, 223, 173, 0)), url(../img/electronicss.jpg);
+    background: linear-gradient(rgba(248, 223, 173, 0), rgba(248, 223, 173, 0)), url(https://www.shutterstock.com/image-vector/equipment-electronics-shop-vector-illustration-260nw-1091103536.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -219,9 +219,17 @@
     margin-left: 20px;
 }
 
-.page-header {
+.page-header-contact {
     position: relative;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/contact.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-header-cart {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://www.shutterstock.com/image-vector/modern-electronics-store-interior-vector-260nw-1682574079.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
