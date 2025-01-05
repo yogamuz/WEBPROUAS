@@ -179,7 +179,7 @@
 
 /*** Hero Header ***/
 .hero-header {
-    background: linear-gradient(rgba(248, 223, 173, 0), rgba(248, 223, 173, 0)), url(../img/store-wp.webp);
+    background: linear-gradient(rgba(248, 223, 173, 0), rgba(248, 223, 173, 0)), url(../img/store-wp.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -229,7 +229,7 @@
 
 .page-header-cart {
     position: relative;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/store-wp.webp);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/store-wp.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
